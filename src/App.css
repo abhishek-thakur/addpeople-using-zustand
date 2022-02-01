@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  flex: auto;
+  justify-content: center;
 }
 
 .App-logo {
@@ -13,6 +15,39 @@
   }
 }
 
+.dark{
+  background-color: #282c34;
+  color: white;
+}
+.inp{
+  padding: 10px 20px;
+  border: 2px solid black;
+  font-weight: 700;
+  margin: 5px 5px;
+}
+.btn{
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.btn-prm {
+  background: #0099cc;
+  color: #ffffff;
+}
+.btn-prm:hover{
+  background: #33a6cc;
+}
+
+.btn-in{
+  background: #f0ad4e;
+  color: #ffffff;
+}
+.btn-in:hover{
+  background: #e49a33;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
