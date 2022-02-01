@@ -12,7 +12,8 @@ export const Input = () =>{
     const add = () =>{
         if(inputRef && inputRef.current){
             addPerson(inputRef.current.value);
-            inputRef.current.value = ""
+            inputRef.current.value = "";
+            setInput("");
         }
     }
     return(
